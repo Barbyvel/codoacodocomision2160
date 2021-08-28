@@ -1,0 +1,41 @@
+header{
+    background-image: url('../img/header2.jpg');
+    /* background-repeat: no-repeat; */
+    height: 150px;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    /* opacity: 0%; */
+}
+
+h1{
+    background-color: rgba(255, 255, 255, 0.746);
+    height: 40px;
+    padding: 20px;
+}
+article{
+    background: linear-gradient(rgba(255, 0, 0, 0.534), rgba(0, 0, 255, 0.513),rgba(0, 128, 0, 0.568), rgba(255, 255, 0, 0.568));
+    width: 90%;
+    margin-left: 5%;
+    height: 700px;
+    padding-top: 40px;
+}
+nav{
+    position: fixed;
+    padding-top: 140px;
+}
+nav ol li{
+    margin: 5px;
+    background-color: rgb(120, 151, 245);
+    display: inline;
+    padding: 10px;
+}
+article h2{
+    text-align: center;
+    
+}
+section{
+    padding-top: 140px;
+}
