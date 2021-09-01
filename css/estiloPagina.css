@@ -24,7 +24,7 @@ article{
 }
 nav{
     position: fixed;
-    padding-top: 140px;
+    /* padding-top: 140px; */
 }
 nav ol li{
     margin: 5px;
@@ -36,6 +36,6 @@ article h2{
     text-align: center;
     
 }
-section{
+/*section{
     padding-top: 140px;
-}
+ } */

@@ -1,0 +1,17 @@
+.negro{
+    background-color: black !important;
+    color: white !important;
+}
+.rojo{
+    background-color: red;
+    color: yellow;
+    width: 25%;
+    height: 320px;
+    /* float: left; */
+    border: 5px solid white;
+    font-size: 2em;
+
+}
+#principal{
+    display: flex;
+}
