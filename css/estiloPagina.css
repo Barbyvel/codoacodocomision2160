@@ -1,7 +1,10 @@
+*{
+    margin: 0px;
+}
 header{
     background-image: url('../img/header2.jpg');
     /* background-repeat: no-repeat; */
-    height: 150px;
+    height: 145px;
     display: flex;
     justify-content: flex-end;
     position: fixed;
@@ -17,25 +20,51 @@ h1{
 }
 article{
     background: linear-gradient(rgba(255, 0, 0, 0.534), rgba(0, 0, 255, 0.513),rgba(0, 128, 0, 0.568), rgba(255, 255, 0, 0.568));
-    width: 90%;
-    margin-left: 5%;
+    width: 100%;
+    /* margin-left: 5%; */
     height: 700px;
     padding-top: 150px;
 }
 nav{
     position: fixed;
+    background-color: rgb(120, 151, 245);
+    padding: 15px;
     /* padding-top: 140px; */
+    /* top: 15px; */
 }
 nav ol li{
     margin: 5px;
-    background-color: rgb(120, 151, 245);
+    /* background-color: rgb(120, 151, 245); */
     display: inline;
-    padding: 10px;
+    opacity: 0.5;
+    /* padding: 15px; */
+    /* margin: 5px -2px; */
+}
+nav ol li:hover{
+    margin: 5px;
+    display: inline;
+    opacity: 1;
+   
+}
+nav ol li a{
+    text-decoration: none;
+    color: black;
 }
 article h2{
     text-align: center;
-    
+
 }
 /*section{
     padding-top: 140px;
  } */
+ body{
+     overflow: hidden;
+ }
+ footer{
+    background-color: rgb(110, 109, 109);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    color: white;

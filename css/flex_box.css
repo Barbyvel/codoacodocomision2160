@@ -1,0 +1,51 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+</style>
+body{
+    overflow: hidden;
+}
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: flex-end; 
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+}
+.cuadro{
+    background-color: blueviolet;
+    width: 20%;
+    /* height: 200px; */
+    /* margin: 10px; */
+    /* float: left;
+    border: 80px solid rgb(252, 228, 94);
+    box-sizing: border-box ; */
+    overflow: auto;
+}
+.cuadro p{
+    font-size: x-large;
+}
+.cuadro p::before{
+    content: "A mí no me pueden copiar";
+}
+.cuadro p::after{
+    content: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, accusamus deleniti vero repellendus officiis in porro! Laborum doloremque tenetur a fuga beatae iste quasi commodi pariatur reiciendis! Rerum, nobis delectus.";
+}
+.cuadro p::first-letter{
+    color: white;
+    background-color: black;
+    padding: 2px;
+}
+footer{
+    background-color: rgb(110, 109, 109);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px 0px;
+    color: white;
+}
+.letra{
+    font-family: 'Lato', sans-serif;
+}
