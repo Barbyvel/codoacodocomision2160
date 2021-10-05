@@ -1,0 +1,11 @@
+nav img{
+    width: 120px;
+}
+footer{
+    background-color: blue;
+    color: white;
+    height: 150px;
+}
+#navbarSupportedContent{
+    justify-content: right !important;
+}

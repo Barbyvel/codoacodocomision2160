@@ -88,6 +88,7 @@ for(let a=0; a < alumnos.length; a++ ){
 }
 alumnos.push("Bárbara");
 alumnos[5]="Luis";
+
 alumnos.forEach((a,index)=>{
     elemento.innerHTML+=`
     <div class="card" style="width: 17rem;">
