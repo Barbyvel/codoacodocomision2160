@@ -55,33 +55,36 @@ window.addEventListener('load', function(){
             
             `;
            
-            tiempo = setInterval( ocultar(),2000);
+            tiempo = setInterval(()=>
+            {
+                elemento.innerHTML=`
+                <form class="col-6">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password">
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button id="btn" type="button" class="btn btn-primary">Ingresar</button>
+                </form>
+                    `;
+                    clearInterval(tiempo);
+            }
+            ,2000);
         }
        
     })
 })
 
-function ocultar(){
-    elemento.innerHTML=`
-    <form class="col-6">
-        <div class="mb-3">
-            <label for="email" class="form-label">Email address</label>
-            <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
-            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-        </div>
-        <div class="mb-3">
-            <label for="password" class="form-label">Password</label>
-            <input type="password" class="form-control" id="password">
-        </div>
-        <div class="mb-3 form-check">
-            <input type="checkbox" class="form-check-input" id="exampleCheck1">
-            <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button id="btn" type="button" class="btn btn-primary">Ingresar</button>
-    </form>
-        `;
-        clearInterval(tiempo);
-}
+
+
 
 // let tiempo = setInterval(()=>{
 //     document.getElementById("mensaje").style.visibility-"hidden"
