@@ -1,0 +1,67 @@
+
+
+#presentacion{
+    background-color: black;
+}
+#fondo{
+    width: 100%;
+    opacity:0.5;
+    
+    
+}
+.navbar{
+    background-color: #353a40 !important;
+}
+
+
+header nav img{
+    width: 120px;
+    margin-top: 5px;
+    
+}
+header nav p{
+    color: white;
+}
+.conf-bsas{
+   margin-top: 30%;
+   margin-right: 5%;
+
+}
+
+.card{
+    margin: 1rem;
+}
+
+#comprarT{
+    background-color: #29a744;
+}
+.foto{
+    width: 50%;
+}
+#octubre{
+    background-color: #353a40;
+}
+.charla{
+    text-decoration-style: dotted;
+    color: black;    
+}
+#formul{
+    align-items: center;
+}
+#botonenviar{
+    background-color: #96c93e;
+    color: white;
+    margin-top: -2em;
+    
+}
+
+footer{ 
+    background-color: #1d475f;
+    color: white;
+    height: 80px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
