@@ -13,7 +13,7 @@ public class EscuelaDigital {
         campus.setPassword("123456");
         Campus docente = new Campus(12,"Web");
         docente.setPassword("1472588");
-        System.out.println(docente.ingresar(12, "1472588")); 
+        System.out.println(docente.ingresar(12, "14788")); 
         
     }
     
